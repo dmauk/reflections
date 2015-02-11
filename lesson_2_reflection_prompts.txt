@@ -1,9 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Initializing a repository sets up existing files ina directory in the same group for version control. I need it to be able to quickly create version controls groups even with existing code.
+Initializing a repository sets up existing files ina directory in the same group
+for version control. I need it to be able to quickly create version controls
+groups even with existing code.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+Staging area is the point where you can determine if file changes should be
+logically separate commits. Working directory is the currently checked out
+commit point for git; it cotains meta data for logging etc.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
