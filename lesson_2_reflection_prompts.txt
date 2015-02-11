@@ -1,26 +1,42 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Initializing a repository sets up existing files ina directory in the same group
-for version control. I need it to be able to quickly create version controls
-groups even with existing code.
+	Initializing a repository sets up existing files ina directory in the same group
+	for version control. I need it to be able to quickly create version controls
+	groups even with existing code.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Staging area is the point where you can determine if file changes should be
-logically separate commits. Working directory is the currently checked out
-commit point for git; it cotains meta data for logging etc.
+	Staging area is the point where you can determine if file changes should be
+	logically separate commits. Working directory is the currently checked out
+	commit point for git; it cotains meta data for logging etc.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Staging aread allows the user to decide if a change to the code is a seperate
+	logical change using diff commands.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches can acts a superior project changes that progress through time.
+	Some can be further along than others in terms of what stages the master
+	branch has gotten to versus the current branch.
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams make visualing branch progress much more obvious so knowing how far
+	a branch has progressed is easy.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging two branches updates the master branch to all relevant changes. It
+	is represented that day because it shows what commits are included/excluded.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	Automatic merging speeds of programming significantly; no time has to be
+	wasted to locate relevant changes.
